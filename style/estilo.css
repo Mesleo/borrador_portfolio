@@ -95,10 +95,12 @@ span {
   height: 80px;
 }
 .ico-down-open {
+  display: inline-block;
   background-image: url("../media/images/down_open.png");
-  width: 25px;
-  height: 25px;
-  z-index: 300;
+  margin-left: 60%;
+  width: 16px;
+  height: 17px;
+  vertical-align: bottom;
 }
 #latest-article {
   max-width: 100%;
@@ -128,6 +130,7 @@ nav {
   top: 50px;
   width: 100%;
   left: 0;
+  z-index: 10;
   transform: translateX(-100%);
   transition: all 0.5s;
 }
@@ -153,13 +156,11 @@ nav a {
 nav a:hover {
   background: rgba(0,0,0,0.31);
 }
+nav>ul> li>ul> li {
+  padding-left: 20px;
+}
 nav a span {
   margin-left: 10px;
-}
-nav ul li:hover ul {
-  display: block;
-  position: absolute;
-  padding-left: 15px;
 }
 .p2 {
   display: none;
@@ -178,7 +179,7 @@ nav ul li:hover ul {
 #latest-article h4 {
   text-align: center;
   padding: 10px;
-  position: relative;
+  position: absolute;
   background: transparent;
 }
 #latest-article picture {

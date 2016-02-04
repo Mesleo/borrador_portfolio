@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc914811-83b5-4465-a7ce-f72e77f21b38" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/images/down_open.png" afterPath="$PROJECT_DIR$/media/images/down_open.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/portfolio.js" afterPath="$PROJECT_DIR$/js/portfolio.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/estilo.css" afterPath="$PROJECT_DIR$/style/estilo.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/estilo.styl" afterPath="$PROJECT_DIR$/style/estilo.styl" />
     </list>
@@ -25,21 +29,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="portfolio.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/portfolio.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
-              <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="58" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/portfolio.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state vertical-scroll-proportion="21.846153">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -48,8 +52,8 @@
       <file leaf-file-name="estilo.styl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/estilo.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37269372">
-              <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.300738">
+              <caret line="182" column="7" selection-start-line="182" selection-start-column="7" selection-end-line="182" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -72,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/portfolio.js" />
         <option value="$PROJECT_DIR$/../Practica12-HotelesRurales/css/estilo.css" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp35424/var/www/html/pages/css/aa.css" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp35424/var/www/html/pages/css/estilo_preguntas.css" />
@@ -89,6 +92,7 @@
         <option value="$USER_HOME$/AppData/Local/Temp/scp29258/public_html/pages/preguntas_respuestas.php" />
         <option value="$PROJECT_DIR$/style/estilo.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/portfolio.js" />
         <option value="$PROJECT_DIR$/style/estilo.styl" />
       </list>
     </option>
@@ -207,7 +211,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="C:/Ruby22-x64/bin/sass.bat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PruebasHTML_CSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -381,26 +385,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../DesarrolloWebEntornoCliente/Tema7/manual_jquery_1_2_3/parte3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32749563">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/portfolio.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+        <state vertical-scroll-proportion="21.846153">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="86" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/estilo.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37269372">
-          <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.300738">
+          <caret line="182" column="7" selection-start-line="182" selection-start-column="7" selection-end-line="182" selection-end-column="7" />
           <folding />
         </state>
       </provider>
