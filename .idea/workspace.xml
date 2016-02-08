@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc914811-83b5-4465-a7ce-f72e77f21b38" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aboutme.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contacto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/menu-nav.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/works.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/images/background_inicio.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/images/logo-js.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/portfolio.js" afterPath="$PROJECT_DIR$/js/portfolio.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/estilo.css" afterPath="$PROJECT_DIR$/style/estilo.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/estilo.styl" afterPath="$PROJECT_DIR$/style/estilo.styl" />
     </list>
@@ -70,8 +60,8 @@
       <file leaf-file-name="estilo.styl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/estilo.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27041742">
-              <caret line="305" column="24" selection-start-line="305" selection-start-column="24" selection-end-line="305" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.3629764">
+              <caret line="79" column="10" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -732,8 +722,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style/estilo.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27041742">
-          <caret line="305" column="24" selection-start-line="305" selection-start-column="24" selection-end-line="305" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.3629764">
+          <caret line="79" column="10" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
           <folding />
         </state>
       </provider>
