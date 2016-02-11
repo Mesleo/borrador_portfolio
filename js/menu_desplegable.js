@@ -21,7 +21,7 @@ $(function() {
 
     // Despliega los submenús si los hubiera
     function desplegarMenus(anchura) {
-        $('.submenu').click(function (e) {
+        $('.submenu').hover(function (e) {
             console.log(anchura);
 
             if (a == false) {

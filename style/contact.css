@@ -38,3 +38,24 @@ article h2 {
 #form_contacto input[type=button]:active {
   background-color: rgba(165,172,177,0.91);
 }
+#lista_contacto {
+  width: 90%;
+  margin: auto;
+  list-style: none;
+}
+#lista_contacto li a {
+  color: #06135a;
+  margin-left: 2px;
+  display: inline-block;
+  width: 65%;
+}
+@media screen and (min-width: 750px) {
+  #lista_contacto {
+    width: 70%;
+    margin: auto;
+    line-height: 30px;
+    letter-spacing: 2px;
+    -moz-columns: 2;
+    -webkit-columns: 2;
+  }
+}

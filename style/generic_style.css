@@ -104,28 +104,11 @@ header h1 {
   height: 17px;
   vertical-align: bottom;
 }
-#lista_contacto {
-  width: 90%;
-  margin: auto;
-  list-style: none;
-}
-#lista_contacto li a {
-  color: #06135a;
-  margin-left: 2px;
-  display: inline-block;
-  width: 65%;
-}
 main {
   width: 100%;
 }
 main section {
   width: 100%;
-}
-#name {
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  top: 30%;
 }
 /** RESOLUCIONES SUPERIORES A 410 PX **/
 @media screen and (min-width: 410px) {
@@ -176,6 +159,7 @@ main section {
     letter-spacing: 10px;
     padding-bottom: 10px;
     font-size: 0.8em;
+    margin-top: 50px;
   }
   footer picture,
   footer img {
@@ -204,8 +188,21 @@ main section {
   h3 {
     text-align: center;
   }
-  #lista_contacto {
-    margin-left: 35%;
+  main {
+    padding-top: 50px;
+  }
+  #name {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 35%;
+    font-family: 'Black+Ops+One';
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 7px;
+    display: block;
+    z-index: 1000;
   }
 @-moz-keyframes flechaAnimada {
     0% {
