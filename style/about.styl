@@ -1,0 +1,68 @@
+colorPrincipal = #06135a
+colorSecundario = #000000
+colorTextoTitulos = white
+max = 100%
+alturaHeader = 70px
+paddingA = 15px
+paddingB = 20px
+
+article
+  width max - (5%)
+  margin auto
+  box-sizing border-box
+
+article p
+  font-family "Lato";
+  line-height 30px
+  margin 15px 10px 15px 10px;
+
+#banner-about
+  background-image url("../media/images/background_about_s.jpg");
+
+#mifoto
+  width max - (20%)
+  border 6px double #6b6e75
+  height 270px
+  margin auto
+  background-size max max
+
+#mifoto img, #mifoto picture
+  width max
+  height max
+
+picture
+  padding 0
+  box-sizing border-box
+  border 0
+
+/** RESOLUCIONES SUPERIORES A 410 PX **/
+@media screen and (min-width 410px)
+
+  #banner-about
+    background-image url("../media/images/background_about_m.jpg")
+
+
+/** RESOLUCIONES SUPERIORES A 750 PX **/
+@media screen and (min-width 750px)
+
+  article
+    width max - (25%)
+    //margin auto
+    //margin-bottom 50px
+
+    article p
+      font-family "Lato";
+      line-height 40px
+      margin 15px 10px 15px 10px;
+
+  #mifoto
+    width max - (30%)
+    border 8px double colorPrincipal
+    height 400px
+    margin auto
+    margin-bottom 50px
+    background-size max max
+
+    #mifoto img, #mifoto picture
+      width max
+      height max

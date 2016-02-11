@@ -1,0 +1,60 @@
+article {
+  width: 95%;
+  margin: auto;
+  box-sizing: border-box;
+}
+article p {
+  font-family: "Lato";
+  line-height: 30px;
+  margin: 15px 10px 15px 10px;
+}
+#banner-about {
+  background-image: url("../media/images/background_about_s.jpg");
+}
+#mifoto {
+  width: 80%;
+  border: 6px double #6b6e75;
+  height: 270px;
+  margin: auto;
+  background-size: 100% 100%;
+}
+#mifoto img,
+#mifoto picture {
+  width: 100%;
+  height: 100%;
+}
+picture {
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+/** RESOLUCIONES SUPERIORES A 410 PX **/
+@media screen and (min-width: 410px) {
+  #banner-about {
+    background-image: url("../media/images/background_about_m.jpg");
+  }
+}
+/** RESOLUCIONES SUPERIORES A 750 PX **/
+@media screen and (min-width: 750px) {
+  article {
+    width: 75%;
+  }
+  article article p {
+    font-family: "Lato";
+    line-height: 40px;
+    margin: 15px 10px 15px 10px;
+  }
+  #mifoto {
+    width: 70%;
+    border: 8px double #06135a;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 50px;
+    background-size: 100% 100%;
+  }
+  #mifoto #mifoto img,
+  #mifoto #mifoto picture {
+    width: 100%;
+    height: 100%;
+  }
+}

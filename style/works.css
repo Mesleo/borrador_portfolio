@@ -1,0 +1,84 @@
+#banner-works {
+  background-image: url("../media/images/background_works_s.jpg");
+}
+h2 {
+  margin-left: 25px;
+  margin-top: 50px;
+}
+#intro-js {
+  background-image: url("../media/images/js.png");
+}
+#intro-js:hover {
+  background-image: url("../media/images/js-trans.png");
+}
+#hoteles_rurales {
+  background-image: url("../media/images/hoteles_rurales.PNG");
+}
+#hoteles_rurales:hover {
+  background-image: url("../media/images/hoteles_rurales_trans.png");
+}
+#calc-android {
+  background-image: url("../media/images/android_calc.png");
+}
+#calc-android:hover {
+  background-image: url("../media/images/android_calc-trans.png");
+}
+#intro-python {
+  background-image: url("../media/images/python_s.png");
+}
+#intro-python:hover {
+  background-image: url("../media/images/python_s_trans.png");
+}
+.work {
+  display: block;
+  position: relative;
+  width: 85%;
+  margin: 0 auto;
+  height: 280px;
+  padding: 0;
+  background-size: 100% 100%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 1px 2px rgba(206,210,217,0.91);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.work h4 {
+  display: none;
+}
+.work:hover h4 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  font-size: 0.9em;
+  text-align: center;
+  top: 50%;
+  margin-top: -11px;
+}
+@media screen and (min-width: 410px) {
+  #banner-home {
+    background-image: url("../media/images/background_inicio_m.jpg");
+  }
+  #latest-article article {
+    height: 310px;
+  }
+}
+@media screen and (min-width: 750px) {
+  main section {
+    text-align: center;
+    margin: auto;
+  }
+  #latest-article {
+    width: 85%;
+    display: block;
+  }
+  #latest-article article {
+    width: 45%;
+    padding: 0;
+    display: inline-block;
+    margin: 30px 12px 20px 12px;
+  }
+}

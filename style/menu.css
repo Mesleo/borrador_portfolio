@@ -1,0 +1,125 @@
+#btn-menu:checked ~ nav {
+  transform: translateX(0%);
+}
+#btn-menu {
+  display: none;
+}
+header label {
+  font-size: 30px;
+  cursor: pointer;
+  display: block;
+}
+.icon-menu {
+  background-image: url("../media/images/ico_menu_bar.png");
+  width: 43px;
+  margin: 15px 8px 15px;
+  padding: 0;
+  position: absolute;
+  right: 5px;
+  background-color: transparent;
+  background-size: 100% 100%;
+  border: 0;
+  height: 42px;
+}
+nav {
+  font-size: 0.9em;
+  font-family: 'Orbitron';
+  font-weight: bold;
+  position: absolute;
+  top: 70px;
+  border-top: 1px solid;
+  width: 100%;
+  left: 0;
+  z-index: 10;
+  color: #fff;
+  transform: translateX(-100%);
+  transition: all 0.5s;
+}
+nav ul {
+  background: #06135a;
+  display: block;
+  cursor: pointer;
+}
+nav ul ul {
+  display: none;
+}
+nav ul ul li {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+nav a {
+  display: block;
+  letter-spacing: 2px;
+  width: 100%;
+  padding: 20px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+nav a:hover {
+  background: rgba(0,0,0,0.31);
+}
+nav a span {
+  margin-left: 10px;
+}
+nav>ul> li>ul>li a {
+  padding-left: 40px;
+}
+/** RESOLUCIONES SUPERIORES A 410 PX **/
+@media screen and (min-width: 410px) {
+  nav {
+    top: 78.4px;
+  }
+  .icon-menu {
+    height: 8%;
+    width: 10%;
+  }
+}
+/** RESOLUCIONES SUPERIORES A 750 PX **/
+@media screen and (min-width: 750px) {
+  #ico-menu-bar {
+    display: none;
+  }
+  header label {
+    font-size: 30px;
+  }
+  .menu-fijo {
+    position: fixed;
+    top: 0;
+    width: 900px;
+  }
+  nav {
+    width: 80%;
+    position: relative;
+    transform: none;
+    top: 0;
+    height: 95px;
+    font-size: 0.8em;
+    margin-left: 10%;
+    border-top: 0;
+  }
+  nav ul {
+    width: 100%;
+    background-color: #06135a;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  nav ul ul {
+    display: none;
+    position: absolute;
+    max-width: 250px;
+    left: 250px;
+  }
+  nav a {
+    padding: 38px 30px;
+  }
+  nav a .ico-down-open {
+    margin-left: 10px;
+    display: inline-block;
+    width: 16px;
+  }
+  nav>ul> li>ul>li a {
+    padding-left: 39px;
+  }
+}

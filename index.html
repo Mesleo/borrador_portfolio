@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <title>JBenítez | Home</title>
     <link rel="stylesheet" href="style/normalize.css" type="text/css">
-    <link rel="stylesheet" href="style/estilo.css" type="text/css">
+    <link rel="stylesheet" href="style/generic_style.css" type="text/css">
+    <link rel="stylesheet" href="style/menu.css" type="text/css">
+    <link rel="stylesheet" href="style/style_index.css" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Vast+Shadow' rel='stylesheet' type='text/css'>
@@ -15,35 +17,34 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js" type="text/javascript"></script>
 </head>
 <body>
-    <header>
+    <header id="cabecera">
         <h1>JBenitez</h1>
         <input type="checkbox" id="btn-menu">
         <label for="btn-menu" class="icon-menu"></label>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="aboutme.html">Sobre mí</a></li>
-                <li class="submenu"><a href="#">Trabajos<div class="ico-down-open"></div></a>
+                <li><a href="about.html">Sobre mí</a></li>
+                <li class="submenu"><a >Trabajos<div class="ico-down-open"></div></a>
                     <ul>
                         <li><a href="works.html#intro-js" class="ancla">Introducción a JavaScript</a></li>
-                        <li><a href="works.html#intro-php" class="ancla">Agenda instituto con PHP</a></li>
+                        <li><a href="works.html#hoteles_rurales" class="ancla">Hoteles rurales</a></li>
                         <li><a href="works.html#calc-android" class="ancla">Calculadora Android</a></li>
                         <li><a href="works.html#intro-python" class="ancla">Introducción a python</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Currículum</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="contact.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    <div id="banner-home">
-        <!--<h2>Inicio</h2>-->
+    <div id="banner-home" class="banner">
     </div>
+    <div id="div_bottom"><img id="btn_bottom" src="media/images/btn_bottom.png" alt="Ir abajo"></div>
     <div id="container">
     <main>
     <section>
-        <h3>¿Quién soy?</h3>
         <article>
+            <h2>¿Quién soy?</h2>
             <p>
                 Soy Javier Benítez, estudiante de desarrollo web. Estoy especializándome en las tecnologías <em>front-end
             </em> como <strong>HTML5</strong>, <strong>CSS3</strong> y <strong>JavaScript</strong>; así como lenguajes de programación del
@@ -52,19 +53,26 @@
             </p>
         </article>
     </section>
-    <section>
-        <article>
-            <picture id="mifoto">
-                <source srcset="media/images/foto.jpg" media="(min-width: 700px)">
-                <source srcset="media/images/foto_m.png" media="(min-width: 415px)">
-                <img srcset="media/images/foto_s.png" alt="My default image">
-            </picture>
-        </article>
-    </section>
     </main>
         <div id="div_top">
             <img src="media/images/flecha_arriba.png" alt="Ir arriba" id="btn_top">
         </div>
+        <section>
+            <article>
+                <h2>¿Dónde me encuentro?</h2>
+                <p>
+                    Actualmente vivo en Córdoba, donde estoy cursando el ciclo formativo de grado superior Desarrollo de aplicaciones web.
+                    Aunque los fines de semana resido en mi localidad natal, un pueblo de la misma provincia.
+                </p>
+            </article>
+            <article>
+                <h2>¿Que herramientas, tecnologías, lenguajes, etc. manejo?</h2>
+                    <p>
+                        Estoy trabajando con el lenguaje de programación PHP del lado del servidor y JavaScript del lado del cliente. También estoy
+                        adquiriendo grandes conocimientos sobre HTML5 y CSS3, asi como la librería o framework de JavaScript, jQuery.
+                    </p>
+            </article>
+        </section>
     </div>
     <footer>
         <div id="contacto">
@@ -85,15 +93,11 @@
                 <img srcset="media/images/ico_linkedin_s.png" alt="LinkedIn">
             </picture></a>
         </div>
-        <div id="licenciaCC"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia Creative Commons"
-                                                                                                         style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />
-            <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Developer web</span> por
-            <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">JBenítez</span> se distribuye
-            bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons
-                Atribución-CompartirIgual 4.0 Internacional</a>.
-        </div>
         <p>Javier Benítez | Web developer</p>
     </footer>
-    <script src="js/portfolio.js"></script>
+    <script src="js/menu_desplegable.js"></script>
+    <script src="js/to_top.js"></script>
+    <script src="js/to_bottom.js"></script>
+    <script src="js/generic.js"></script>
 </body>
 </html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JBenítez | About</title>
+    <link rel="stylesheet" href="style/normalize.css" type="text/css">
+    <link rel="stylesheet" href="style/generic_style.css" type="text/css">
+    <link rel="stylesheet" href="style/about.css" type="text/css">
+    <link rel="stylesheet" href="style/menu.css" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Vast+Shadow' rel='stylesheet' type='text/css'>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/jquery.scrollTo-1.4.3.1.js" type="text/javascript"></script>
+    <script src="js/jquery.smooth-scroll.js"></script>
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1;">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js" type="text/javascript"></script>
+</head>
+<body>
+<header id="cabecera">
+    <h1>JBenitez</h1>
+    <input type="checkbox" id="btn-menu">
+    <label for="btn-menu" class="icon-menu"></label>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Sobre mí</a></li>
+            <li class="submenu"><a href="#">Trabajos<div class="ico-down-open"></div></a>
+                <ul>
+                    <li><a href="works.html#intro-js" class="ancla">Introducción a JavaScript</a></li>
+                    <li><a href="works.html#hoteles_rurales" class="ancla">Hoteles rurales</a></li>
+                    <li><a href="works.html#calc-android" class="ancla">Calculadora Android</a></li>
+                    <li><a href="works.html#intro-python" class="ancla">Introducción a python</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+<div id="banner-about" class="banner"></div>
+<div id="div_bottom"><img id="btn_bottom" src="media/images/btn_bottom.png" alt="Ir abajo"></div>
+<div id="container">
+    <main>
+        <section>
+            <h2>Sobre mí</h2>
+            <article id="mifoto">
+                <picture >
+                    <source srcset="media/images/foto_b.jpg" media="(min-width: 700px)">
+                    <source srcset="media/images/foto_m.png" media="(min-width: 415px)">
+                    <img srcset="media/images/foto_s.png" alt="My default image">
+                </picture>
+            </article>
+        </section>
+        <section>
+            <article>
+                <p>
+                    Soy Javier Benítez, estudiante de desarrollo web. Estoy especializándome en las tecnologías <em>front-end
+                </em> como <strong>HTML5</strong>, <strong>CSS3</strong> y <strong>JavaScript</strong>; así como lenguajes de programación del
+                    <em>lado del servidor</em> como <strong>PHP</strong> y otros lenguajes del <em>lado del cliente</em> como <strong>Java
+                </strong> y <strong>Android</strong>.
+                </p>
+                <p class="p2">También tengo en mi currículum el ciclo de
+                    informática de <em>Sistemas microinformáticos y redes</em> en el cual adquirí conocimientos sobre sistemas operativos como
+                    <strong>Linux</strong> y <strong>Windows</strong>, tanto cliente como servidor, así como conocimientos avanzados sobre aplicaciones
+                    ofimáticas: paquete <strong>Office</strong>.
+                </p>
+            </article>
+        </section>
+    </main>
+    <div id="div_top">
+        <img src="media/images/flecha_arriba.png" alt="Ir arriba" id="btn_top">
+    </div>
+</div>
+<footer>
+    <div id="contacto">
+        <a href="https://www.facebook.com/javier.benitezdelpozo"><picture>
+            <source srcset="media/images/ico_facebook_m.png" media="(min-width: 650px)">
+            <img srcset="media/images/ico_facebook_s.png" alt="Facebook">
+        </picture></a>
+        <a href="https://github.com/Mesleo"><picture>
+            <source srcset="media/images/ico_github_m.png" media="(min-width: 650px)">
+            <img srcset="media/images/ico_github_s.png" alt="Github">
+        </picture></a>
+        <a href="https://twitter.com/javib12"><picture>
+            <source srcset="media/images/ico_twitter_m.png" media="(min-width: 650px)">
+            <img srcset="media/images/ico_twitter_s.png" alt="Twitter">
+        </picture></a>
+        <a href="https://www.linkedin.com/in/javi-ben%C3%ADtez-56833a8a?trk=nav_responsive_tab_profile_pic"><picture>
+            <source srcset="media/images/ico_linkedin_m.png" media="(min-width: 650px)">
+            <img srcset="media/images/ico_linkedin_s.png" alt="LinkedIn">
+        </picture></a>
+    </div>
+    <p>Javier Benítez | Web developer</p>
+</footer>
+<script src="js/menu_desplegable.js"></script>
+<script src="js/to_top.js"></script>
+<script src="js/to_bottom.js"></script>
+<script src="js/generic.js"></script>
+</body>
+</html>

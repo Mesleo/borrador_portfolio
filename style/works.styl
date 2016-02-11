@@ -1,0 +1,87 @@
+colorPrincipal = #06135a
+colorSecundario = #000000
+colorTextoTitulos = white
+max = 100%
+alturaHeader = 70px
+paddingA = 15px
+paddingB = 20px
+
+#banner-works
+  background-image url("../media/images/background_works_s.jpg");
+
+h2
+  margin-left 25px
+  margin-top 50px
+
+#intro-js
+  background-image url("../media/images/js.png")
+  &:hover
+    background-image url("../media/images/js-trans.png")
+
+#hoteles_rurales
+  background-image url("../media/images/hoteles_rurales.PNG")
+  &:hover
+    background-image url("../media/images/hoteles_rurales_trans.png")
+
+#calc-android
+  background-image url("../media/images/android_calc.png")
+  &:hover
+    background-image url("../media/images/android_calc-trans.png")
+
+#intro-python
+  background-image url("../media/images/python_s.png")
+  &:hover
+    background-image url("../media/images/python_s_trans.png")
+
+.work
+  display block
+  position relative
+  width 85%;
+  margin 0 auto;
+  height 280px
+  padding 0
+  background-size max max
+  margin-bottom 20px
+  box-sizing border-box
+  box-shadow 4px 4px 1px 2px rgba(206, 210, 217, 0.91)
+  -webkit-transition all 1s;
+  -moz-transition all 1s;
+  -ms-transition all 1s;
+  -o-transition all 1s;
+  transition all 1s;
+  h4
+    display none
+  &:hover h4
+    position absolute
+    display block
+    width max
+    font-size 0.9em
+    text-align center
+    top 50%
+    margin-top -11px
+
+@media screen and (min-width 410px)
+
+  #banner-home
+    background-image url("../media/images/background_inicio_m.jpg")
+
+  #latest-article
+    article
+      height 310px
+
+@media screen and (min-width 750px)
+
+  main
+    section
+      text-align center
+      margin auto
+
+
+  #latest-article
+    width 85%
+    display block
+    article
+      width 45%
+      padding 0
+      display inline-block
+      margin 30px 12px 20px 12px

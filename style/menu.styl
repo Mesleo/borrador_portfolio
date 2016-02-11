@@ -1,0 +1,123 @@
+colorPrincipal = #06135a
+colorSecundario = #000000
+colorTextoTitulos = white
+max = 100%
+alturaHeader = 70px
+paddingA = 15px
+paddingB = 20px
+
+#btn-menu:checked ~ nav
+  transform translateX(0%)
+
+#btn-menu
+  display none
+
+
+header label
+  font-size 30px
+  cursor pointer
+  display block
+
+.icon-menu
+  background-image url("../media/images/ico_menu_bar.png");
+  width 43px;
+  margin 15px 8px 15px
+  padding 0;
+  position absolute
+  right 5px
+  background-color transparent;
+  background-size 100% 100%
+  border 0;
+  height 42px;
+
+nav
+  font-size .9em
+  font-family 'Orbitron'
+  font-weight bold
+  position absolute
+  top alturaHeader
+  border-top 1px solid
+  width 100%
+  left 0
+  z-index 10
+  color white
+  transform translateX(-100%)
+  transition all 0.5s
+  ul
+    background colorPrincipal
+    display block
+    cursor pointer
+    ul
+      display none
+      li
+        cursor pointer
+        display block
+        width max
+  a
+    display block
+    letter-spacing 2px
+    width max
+    padding paddingB paddingB
+    color colorTextoTitulos
+    text-decoration none
+    &:hover
+      background rgba(0, 0, 0, 0.31)
+    span
+      margin-left 10px
+
+
+nav>ul> li>ul>li a
+  padding-left 40px
+
+/** RESOLUCIONES SUPERIORES A 410 PX **/
+@media screen and (min-width 410px)
+  nav
+    top alturaHeader+12%
+
+  .icon-menu
+    height 8%
+    width 10%
+
+/** RESOLUCIONES SUPERIORES A 750 PX **/
+@media screen and (min-width 750px)
+  #ico-menu-bar
+    display none
+
+  header label
+    font-size 30px
+
+  .menu-fijo
+    position fixed
+    top 0
+    width 900px
+
+  nav
+    width 80%
+    position relative
+    transform none
+    top 0
+    height alturaHeader + (25px)
+    font-size .8em
+    margin-left 10%
+    border-top 0
+    ul
+      width max
+      //margin-left 50px
+      background-color colorPrincipal
+      display flex
+      flex-direction row
+      list-style none
+      ul
+        display none
+        position absolute
+        max-width 250px
+        left 250px
+    a
+      padding paddingA + (23px) paddingB + (10px)
+      .ico-down-open
+        margin-left 10px
+        display inline-block
+        width 16px
+
+  nav>ul> li>ul>li a
+    padding-left paddingA + (24px)
