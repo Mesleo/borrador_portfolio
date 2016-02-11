@@ -14,7 +14,11 @@ $(function(){
 
         if(ancho >= 750){
             console.log(archivo);
-            $('#cabecera').css('top', '100%');
+            $('#cabecera').css({
+                'top': '100%',
+                'margin-bottom': '180px'
+            });
+            $('section:first-child').css('top', alto+100);
             $('.banner').css('background-image', 'none');
             switch (archivo){
                 case 'index.html':
@@ -40,8 +44,10 @@ $(function(){
             var v = document.getElementsByTagName("video")[0];
             if(v) {
                 banner.css('min-height', alto);
-                video.css('width', '100%');
-                video.css('background-size', '100% 100%');
+                video.css({
+                    'width': '100%',
+                    'height': alto
+                });
                 video.attr('autoplay', true);
                 v.play();
             }

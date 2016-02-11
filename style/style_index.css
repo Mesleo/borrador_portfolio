@@ -1,6 +1,7 @@
 article {
   width: 80%;
   margin: auto;
+  margin-bottom: 60px;
 }
 #banner-home {
   background-image: url("../media/images/background_inicio_s.jpg");
