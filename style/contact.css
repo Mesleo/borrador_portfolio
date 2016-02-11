@@ -5,3 +5,36 @@ article {
 article h2 {
   margin-left: 15px;
 }
+#form_contacto {
+  width: 90%;
+  margin: auto;
+  background: transparent;
+  font-size: 1em;
+  line-height: 19px;
+}
+#form_contacto * {
+  width: 100%;
+}
+#form_contacto input,
+#form_contacto textarea {
+  background-color: #e1e1e1;
+  max-width: 100%;
+  border: 0;
+  font-size: 1.1em;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-top: 2px;
+}
+#form_contacto input {
+  height: 40px;
+}
+#form_contacto textarea {
+  max-height: 300px;
+}
+#form_contacto #enviar {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+#form_contacto input[type=button]:active {
+  background-color: rgba(165,172,177,0.91);
+}

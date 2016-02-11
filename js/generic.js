@@ -13,12 +13,11 @@ $(function(){
         var archivo = location.pathname.substring(location.pathname.lastIndexOf('/')+1);
 
         if(ancho >= 750){
-            console.log(archivo);
             $('#cabecera').css({
-                'top': '100%',
-                'margin-bottom': '180px'
+                'top': '104%',
+                //'margin-bottom': '180px'
             });
-            $('section:first-child').css('top', alto+100);
+            $('#container').css('top', '150%');
             $('.banner').css('background-image', 'none');
             switch (archivo){
                 case 'index.html':
@@ -46,7 +45,7 @@ $(function(){
                 banner.css('min-height', alto);
                 video.css({
                     'width': '100%',
-                    'height': alto
+                    'min-height': alto
                 });
                 video.attr('autoplay', true);
                 v.play();

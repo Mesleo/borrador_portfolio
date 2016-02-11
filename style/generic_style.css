@@ -69,39 +69,6 @@ footer p {
   color: #fff;
   text-align: center;
 }
-#form_contacto {
-  width: 90%;
-  margin: auto;
-  background: transparent;
-  font-size: 1em;
-  line-height: 19px;
-}
-#form_contacto * {
-  width: 100%;
-}
-#form_contacto input,
-#form_contacto textarea {
-  background-color: #e1e1e1;
-  max-width: 100%;
-  border: 0;
-  font-size: 1.1em;
-  padding: 10px;
-  margin-bottom: 15px;
-  margin-top: 2px;
-}
-#form_contacto input {
-  height: 40px;
-}
-#form_contacto textarea {
-  max-height: 300px;
-}
-#form_contacto #enviar {
-  font-size: 0.8em;
-  font-weight: bold;
-}
-#form_contacto input[type=button]:active {
-  background-color: rgba(165,172,177,0.91);
-}
 h1,
 h2,
 h3,
@@ -154,6 +121,12 @@ main {
 main section {
   width: 100%;
 }
+#name {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 30%;
+}
 /** RESOLUCIONES SUPERIORES A 410 PX **/
 @media screen and (min-width: 410px) {
   #banner-home,
@@ -180,7 +153,6 @@ main section {
   .banner {
     width: 100%;
     background-image: none;
-    background-color: #06135a;
     z-index: 2;
     margin-bottom: 100px;
   }
@@ -198,6 +170,18 @@ main section {
     cursor: pointer;
     margin: 0 auto;
     animation: flechaAnimada 0.7s infinite;
+  }
+  footer {
+    height: 100px;
+    letter-spacing: 10px;
+    padding-bottom: 10px;
+    font-size: 0.8em;
+  }
+  footer picture,
+  footer img {
+    width: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
   }
   header {
     display: flex;

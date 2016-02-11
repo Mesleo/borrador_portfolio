@@ -1,6 +1,41 @@
+colorPrincipal = #06135a
+colorSecundario = #000000
+colorTextoTitulos = white
+max = 100%
+alturaHeader = 70px
+paddingA = 15px
+paddingB = 20px
+
 
 article
   width 95%
   margin auto
   h2
     margin-left 15px
+
+#form_contacto
+  width 90%
+  margin auto
+  background transparent
+  font-size 1em
+  line-height 19px
+  *
+    width max
+  input, textarea
+    background-color rgb(225, 225, 225)
+    max-width max
+    border 0
+    font-size 1.1em
+    padding paddingA -(5px)
+    margin-bottom paddingA
+    margin-top 2px
+  input
+    height 40px
+  textarea
+    max-height 300px
+  #enviar
+    font-size .8em
+    font-weight bold
+
+#form_contacto input[type=button]:active
+  background-color rgba(165, 172, 177, 0.91)

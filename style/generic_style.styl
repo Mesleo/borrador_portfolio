@@ -78,32 +78,6 @@ footer p
   color colorTextoTitulos
   text-align center;
 
-#form_contacto
-  width 90%
-  margin auto
-  background transparent
-  font-size 1em
-  line-height 19px
-  *
-    width max
-  input, textarea
-    background-color rgb(225, 225, 225)
-    max-width max
-    border 0
-    font-size 1.1em
-    padding paddingA -(5px)
-    margin-bottom paddingA
-    margin-top 2px
-  input
-    height 40px
-  textarea
-    max-height 300px
-  #enviar
-    font-size .8em
-    font-weight bold
-
-#form_contacto input[type=button]:active
-  background-color rgba(165, 172, 177, 0.91)
 
 h1, h2, h3, h4
   font-family "Orbitron";
@@ -156,6 +130,12 @@ main
 main section
   width 100%;
 
+#name
+  position absolute
+  text-align center
+  width max
+  top 30%
+
 /** RESOLUCIONES SUPERIORES A 410 PX **/
 @media screen and (min-width 410px)
 
@@ -180,7 +160,7 @@ main section
   .banner
     width max
     background-image none
-    background-color colorPrincipal
+    //background-color colorPrincipal
     z-index 2
     margin-bottom 100px
 
@@ -197,6 +177,17 @@ main section
       cursor pointer
       margin 0 auto
       animation flechaAnimada  0.7s infinite;
+
+  footer
+    height 100px
+    letter-spacing 10px
+    padding-bottom 10px
+    font-size .8em
+    picture, img
+      width 25px
+      margin-right 25px
+      margin-bottom 10px
+
 
   @keyframes flechaAnimada
     0%
