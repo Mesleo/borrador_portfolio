@@ -1,24 +1,16 @@
 /**
  * Created by anonimo1 on 02/02/2016.
  */
-$(function(){
-    {
-        var a = false;
-        var b = false;
-        var ancho = $(window).width();
-        var alto = $(window).height();
-        var textoName;
-        var content;
-        var archivo = location.pathname.substring(location.pathname.lastIndexOf('/')+1);
+($(function(){
 
-        if(ancho >= 750){
+    function onResizeBanner() {
+        if (ancho >= 750) {
             $('#cabecera').css({
-                'top': '104%',
-                //'margin-bottom': '180px'
+                'top': '104%'
             });
             $('#container').css('top', '150%');
             $('.banner').css('background-image', 'none');
-            switch (archivo){
+            switch (archivo) {
                 case 'index.html':
                     content = 'media/videos/home.mp4';
                     textoName = 'Javier Benítez del Pozo';
@@ -36,25 +28,35 @@ $(function(){
                     textoName = 'Contacto';
                     break;
             }
-            var video = $("<video />",
-                {
-                    id: "banner", //atributo directo, igual que si fuéramos con attr(“id”)
-                    src: content,
-                    loop: 1
-                });
-            var banner = $('.banner');
-            banner.html(video);
-            banner.after('<h1 id="name">'+textoName+'</h1>');
             var v = document.getElementsByTagName("video")[0];
-            if(v) {
+            if (v) {
                 banner.css('min-height', alto);
                 video.css({
                     'width': '100%',
                     'min-height': alto
                 });
                 video.attr('autoplay', true);
-                setInterval(v.play(), 100);
+                v.play();
             }
         }
     }
-});
+
+    function comprobarAnchura(){
+        ancho = $(window).innerWidth();
+        console.log(ancho);
+        if(ancho < 750){
+            banner.children('video').css('display', 'none');
+        }
+    }
+
+    {
+        var ancho = $(window).innerWidth();
+        var alto = $(window).height();
+        var textoName;
+        var banner = $('.banner');
+        var content;
+        var archivo = location.pathname.substring(location.pathname.lastIndexOf('/')+1);
+        $(window).resize(onResizeBanner);
+        $(window).load(onResizeBanner);
+    }
+}));

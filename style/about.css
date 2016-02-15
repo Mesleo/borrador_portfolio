@@ -1,9 +1,11 @@
-section h2 {
+section h3 {
   margin-left: 25px;
+  margin-bottom: 15px;
 }
 article {
   width: 95%;
   margin: auto;
+  margin-top: 25px;
   box-sizing: border-box;
 }
 article p {
@@ -46,6 +48,9 @@ picture {
     font-family: "Lato";
     line-height: 40px;
     margin: 15px 10px 15px 10px;
+  }
+  #banner-about {
+    background-image: url("../media/images/background_about_b.jpg");
   }
   #mifoto {
     width: 60%;

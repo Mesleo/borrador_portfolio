@@ -51,7 +51,6 @@ nav ul ul li {
 nav a {
   display: block;
   letter-spacing: 2px;
-  width: 100%;
   padding: 20px 20px;
   color: #fff;
   text-decoration: none;
@@ -77,7 +76,17 @@ nav>ul> li>ul>li a {
 }
 /** RESOLUCIONES SUPERIORES A 750 PX **/
 @media screen and (min-width: 750px) {
-  #ico-menu-bar {
+  .icon-menu {
+    display: none;
+    width: 0;
+  }
+  header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+  header h1 {
     display: none;
   }
   header label {
@@ -89,30 +98,34 @@ nav>ul> li>ul>li a {
     width: 900px;
   }
   nav {
-    width: 80%;
+    width: 90%;
     position: relative;
+    margin: auto;
     transform: none;
     top: 0;
-    height: 95px;
     font-size: 0.7em;
-    margin-left: 10%;
     border-top: 0;
   }
-  nav ul {
-    width: 100%;
+  nav >ul {
     background-color: #06135a;
     display: flex;
     flex-direction: row;
     list-style: none;
+    width: 100%;
   }
-  nav ul ul {
+  nav >ul li {
+    text-align: center;
+    display: block;
+    width: 25%;
+  }
+  nav >ul ul {
     display: none;
     position: absolute;
-    max-width: 250px;
-    left: 250px;
+    max-width: 25%;
   }
   nav a {
-    padding: 38px 30px;
+    min-width: 150px;
+    padding: 25px 30px;
   }
   nav a .ico-down-open {
     margin-left: 10px;

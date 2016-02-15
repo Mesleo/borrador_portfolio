@@ -10,8 +10,17 @@ paddingB = 20px
 article
   width 95%
   margin auto
-  h2
+  margin-top 25px
+  h3
     margin-left 15px
+    margin-bottom 15px
+
+#lista_contacto
+  li
+    line-height 35px
+
+#banner-contact
+  background-image url("../media/images/background_contact_s.jpg");
 
 #form_contacto
   width 90%
@@ -52,19 +61,28 @@ article
   display inline-block
   width 65%
 
+/** RESOLUCIONES SUPERIORES A 410 PX **/
+@media screen and (min-width 410px)
+
+  #banner-contact
+    background-image url("../media/images/background_contact_m.jpg")
+
+
 @media screen and (min-width 750px)
 
+  #banner-contact
+    background-image url("../media/images/background_contact_b.jpg")
+
   #lista_contacto
-    width 70%
-    margin auto
-    line-height 30px
-    letter-spacing 2px
+    width 90%
+    margin-left 10%
+    letter-spacing 0px
     -moz-columns 2
     -webkit-columns 2
+    -ms-columns 2
+    li
+      line-height 30px
 
-//span
-    //  width 40%
-    //  text-align justify
-    //a
-    //  width 58%
-    //  text-align justify
+  #form_contacto
+    input, textarea
+      margin-top 15px

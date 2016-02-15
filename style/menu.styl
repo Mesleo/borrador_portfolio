@@ -56,7 +56,6 @@ nav
   a
     display block
     letter-spacing 2px
-    width max
     padding paddingB paddingB
     color colorTextoTitulos
     text-decoration none
@@ -80,8 +79,18 @@ nav>ul> li>ul>li a
 
 /** RESOLUCIONES SUPERIORES A 750 PX **/
 @media screen and (min-width 750px)
-  #ico-menu-bar
+  .icon-menu
     display none
+    width 0
+
+  header
+    width max
+    display flex
+    flex-direction row
+    margin-bottom 20px
+    h1
+      //padding 15px 0 10px 20px
+      display none
 
   header label
     font-size 30px
@@ -92,28 +101,31 @@ nav>ul> li>ul>li a
     width 900px
 
   nav
-    width 80%
+    width 90%
     position relative
+    margin auto
     transform none
     top 0
-    height alturaHeader + (25px)
     font-size .7em
-    margin-left 10%
     border-top 0
-    ul
-      width max
-      //margin-left 50px
+    >ul
       background-color colorPrincipal
       display flex
       flex-direction row
       list-style none
+      width max
+      li
+        text-align center
+        display block
+        width a =   25%
       ul
         display none
         position absolute
-        max-width 250px
-        left 250px
+        max-width 25%
+        //left 250px
     a
-      padding paddingA + (23px) paddingB + (10px)
+      min-width 150px
+      padding paddingA + (10px) paddingB + (10px)
       .ico-down-open
         margin-left 10px
         display inline-block

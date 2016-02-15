@@ -10,17 +10,17 @@ paddingB = 20px
   #div_top
   width max
   button
-    bottom: 20px;
-    right: 20px;
-    display: block;
-    position: fixed;
-    z-index: 100;
-    padding: 10px 15px;
-    border-radius: 4px;
-    background-clip: padding-box;
-    background: colorPrincipal
-    font-size: 30px;
-    text-align: center;
+    bottom 45px
+    right 20px
+    display block
+    position fixed
+    z-index 100
+    padding 10px 15px
+    border-radius 4px
+    background-clip padding-box
+    background colorPrincipal
+    font-size 30px
+    text-align center
     border 0
     cursor pointer
 
@@ -32,18 +32,16 @@ paddingB = 20px
 a
   text-decoration none
 
-a:visited
+avisited
   text-decoration none
   color inherit
 
 .banner
   height 230px
-  background-size: 100% 100%
+  background-size 100% 100%
   background-repeat no-repeat
+  margin-bottom 30px
 
-
-#banner-contact
-  background-image url("../media/images/background_contact_s.jpg");
 
 body
   width 100%;
@@ -70,7 +68,7 @@ body
 footer
   max-width 100%;
   background-color colorPrincipal;
-  margin-top 10px;
+  margin-top 20px;
   padding 25px;
 
 
@@ -84,16 +82,14 @@ h1, h2, h3, h4
 
 h2
   font-size 1.3em
-  margin 25px 0 20px 0;
 
 
 header
-  max-width 100%;
+  width 100%;
   background-color colorPrincipal;
   display flex
   flex-direction row
   padding-top 0px
-  height alturaHeader
 
 
 header h1
@@ -119,39 +115,56 @@ main
 main section
   width 100%;
 
+#name
+  position absolute
+  display none
+  text-align center
+  width max
+  top 30%
+  color white
+  -webkit-text-fill-color colorPrincipal ;
+  -webkit-text-stroke 1px #b3b3b3;
+  font-family 'Black+Ops+One'
+  font-size 2.5em
+  font-style italic
+  font-weight bold
+  letter-spacing 7px
+
+video
+  display none
+
 
 /** RESOLUCIONES SUPERIORES A 410 PX **/
 @media screen and (min-width 410px)
 
-  #banner-home, #banner-works, #banner-about, #banner-contact
+  .banner
     height 280px
+    margin-bottom 40px
 
-  #banner-home
-    background-image url("../media/images/background_inicio_m.jpg")
-
-  #banner-contact
-    background-image url("../media/images/background_contact_m.jpg")
-
-  header
-    height h = alturaHeader+12%
+  footer
+    margin-top 40px
 
   header h1
     padding-top 25px
+
+  video
+    display none
 
 /** RESOLUCIONES SUPERIORES A 750 PX **/
 @media screen and (min-width 750px)
 
   .banner
     width max
-    background-image none
-    //background-color colorPrincipal
     z-index 2
-    margin-bottom 100px
+    margin-bottom 70px
+    height 320px
+    #name
+      display block
 
   #div_bottom
     display block
     width max
-    top 90%
+    top 85%
     z-index 5
     position absolute
     img
@@ -173,7 +186,6 @@ main section
       margin-right 25px
       margin-bottom 10px
 
-
   @keyframes flechaAnimada
     0%
       margin-top -7px
@@ -190,33 +202,23 @@ main section
     display flex
     width max
     flex-direction row
-    height alturaHeader + (25px)
     justify-content flex-end
     h1
       font-weight bold;
-      display inline
+      display inline-block
       font-size 1.3em
       width 20%
-      margin 0;
-      padding 0;
-      padding-top 30px
+      padding 0
+      vertical-align bottom
       padding-left paddingB
 
   h2, h3
     text-align center
 
-  main
-    padding-top 50px
+  h3
+    margin-bottom 15px
 
-  #name
-    position absolute
-    text-align center
-    width max
-    top 35%
-    font-family 'Black+Ops+One'
-    font-size 2.5em
-    font-style italic
-    font-weight bold
-    letter-spacing 7px
+  video
     display block
-    z-index 1000
+    width max
+    max-height max

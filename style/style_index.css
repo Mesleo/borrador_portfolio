@@ -6,3 +6,15 @@ article {
 #banner-home {
   background-image: url("../media/images/background_inicio_s.jpg");
 }
+/** RESOLUCIONES SUPERIORES A 410 PX **/
+@media screen and (min-width: 410px) {
+  #banner-home {
+    background-image: url("../media/images/background_inicio_m.jpg");
+  }
+}
+/** RESOLUCIONES SUPERIORES A 750 PX **/
+@media screen and (min-width: 410px) {
+  #banner-home {
+    background-image: url("../media/images/background_inicio_b.jpg");
+  }
+}
